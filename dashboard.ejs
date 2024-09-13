@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>My E-commerce</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/cart">Cart</a></li>
+                <li><a href="/logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Welcome, <%= username %>!</h2>
+        <div class="dashboard-content">
+            <div class="section">
+                <h3>Latest Products</h3>
+                <p>🛒</p>
+                <img src="shopping.jpg" alt="Shopping">
+            </div>
+            <div class="section">
+                <h3>Offers</h3>
+                <p>💰</p>
+                <img src="offers.jpg" alt="Offers">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 My E-commerce. All rights reserved.</p>
+    </footer>
+</body>
+</html>

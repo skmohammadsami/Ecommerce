@@ -1,0 +1,14 @@
+{
+    "type": "service_account",
+    "project_id": "tourist-locations-458bb",
+    "private_key_id": "56d67469085ac220415f0ab90cd16be1cb476297",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDPyPSOLbZUpMi4\n5FWijHS+NOSp8iUz1e5jGUez5a9md+u4R8OGhoorkHh6nJGUH2PAE0059msQqWKo\n0niEh/0rT49xvqs0EncTFkNBlJk7rwuBibqJgApbqFZp19LYz1HA9LpFgTT+PWOk\nsWMlT7VWoatWrmXR2hLc3tjbua8JUIZqGn6YNnuBrGhBj5Fyza3+2GNr2l2Jvikm\nPCPlQVz+3s/h76TZzLNKh3yx3cgj1NzowgzypZ1ng1+xz4lRhZ5aRSW2kcJf+xCC\nSuzG47ZC55LqOgFAQ9X09vgAnsVnswPUTwtXKZ2K4LxaZ5rCHMF+p3fkdRhYClUz\ndGEfS9qLAgMBAAECggEAViE4rk7oi4Ga6nlLvgt2wPlv57pGDYyaOl3aSQnmgRUo\nksS8meDfGVvTdQ+9kKbKVG4rzuEEVG3CRbSo3Fb6bJ+YGFAu63DUBwdtbZvJQOI4\nZMPQnPqEUKYg29LoxZJ6kv9ezzzV2KVdzoDxViAKTRTKzy2Pa0N4GjINtlbr5XHK\nQkMDRj3hqcKcWWQ6t2r4RJviT3NxQQ1r1GCrH3fzk3gB7cDnYlu5Co7I0Lvr/xKj\nvWnuZb1wXgzQfRMwyIBkxRnaCz9vdxLXMGRvJQo/OOgkq6kO61qVUV9NhfI/J+Of\nv2p6ebHM01pR7/viaXXox2KvTyL4d1n+8yxXx81kgQKBgQDw8E9wLVGtWTYZhESF\n6hfKMsajwdeZCkHRJMTSuoFa+koUc324DqngouOa67irL9qo/F4pr+CqS+xLnGJt\n7i75AYIs4bZ8h6cUC/vrSoC3cUKjYlLTg/r3BUx762b2SZQQCSwSzy/Fvmw+45d2\nBNgwG7i6p2R46Ej/iR5pkiJNYQKBgQDcxhfTK1luln0l5dPpXhmmgqiSwfyUPqoK\nJnohRnbG8A94VooANoQsejhnI/pJHwl2GFNqyxeEiWanu5qfwQj74ONlpOoZSSTU\nCtiYCpf9rV6fBJkSI7QMQ4xqR4q50bUcST2HA3WgMFpHzbf6UhmrcJU6VA5FSbLW\nn/7T8qljawKBgCxOxQ0ICIEsarp+jGtkBUP12nm65/8I19myPU/TZH5qkLz6ECCM\n8ciRq/GNb8RrZHa3EknwQgyPMcEl3SQCLTk1gc7nIzv7ZkpVedpnNQyHE44gQsMK\n/lf27X3MaH7aQRRB240J9OsUfauDBxN5CJiwQGRy7BMgBGyZtrILYauBAoGABrJr\nnpg+CkC+YxvppbaZCJgGDQ2dX9HWzqAELGY6zCYUEg5t+TuuHrtGYrqQqQ8r9k0e\nmqq2d+rDFmt2cUolv54+x6KNB19UoqoBj/siSSutJx24lvhGSejypXauGpzl5YnD\nOAk+1DEjS/JNlmZPKQgtPqu2Exv9NM19qWg/AykCgYEAsbqE6lMbiUr1R1ogoKgh\n/bsCqWAoZITzbRSdqAi71Fu8FLHGBAToRFX/m/KKDTmjXt2TEG3TWjElSkU/0GTI\ndf3Tdl2cW1WNKFHQ5mOftNOpogtGLplDhvEjCbHGpE2cnquPP/MJKN8hIXWemhWD\nYNt1dRCEIhDfDP0dGh50Kuw=\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-dmqhx@tourist-locations-458bb.iam.gserviceaccount.com",
+    "client_id": "107418912307587934125",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-dmqhx%40tourist-locations-458bb.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+  

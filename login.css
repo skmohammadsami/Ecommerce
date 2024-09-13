@@ -1,0 +1,67 @@
+/* login.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://www.intelligentcio.com/apac/wp-content/uploads/sites/44/2023/09/AdobeStock_581856925-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for contrast */
+    padding: 2em;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Optional: adds a blur effect to the background behind the container */
+}
+
+h2 {
+    margin-bottom: 1.5em;
+    color: #333;
+    font-size: 28px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5em;
+    color: #666;
+    text-align: left;
+    font-weight: 600;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 0.8em;
+    margin-bottom: 1.2em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button {
+    padding: 0.8em;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}

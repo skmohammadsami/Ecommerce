@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>My E-commerce</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/cart">Cart</a></li>
+                <li><a href="/logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Your Cart</h2>
+        <div class="cart-content">
+            <h3>User: <%= username %></h3>
+            <div class="cart-items">
+                <% if (cartItems.length === 0) { %>
+                    <p>Your cart is empty.</p>
+                <% } else { %>
+                    <% cartItems.forEach(item => { %>
+                        <div class="cart-item">
+                            <p>Product: <%= item %></p>
+                        </div>
+                    <% }); %>
+                    <button>BUY NOW</button>
+                <% } %>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 My E-commerce. All rights reserved.</p>
+    </footer>
+</body>
+</html>

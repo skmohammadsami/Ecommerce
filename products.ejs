@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>My E-commerce</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/products">Products</a></li>
+                <li><a href="/cart">Cart</a></li>
+                <li><a href="/logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Our Products</h2>
+        <div class="products-content">
+            <% for (let i = 1; i <= 10; i++) { %>
+                <div class="product">
+                    <iframe src="product<%= i %>.html"></iframe>
+                    <button onclick="addToCart('<%= i %>')">ADD TO CART</button>
+                </div>
+            <% } %>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 My E-commerce. All rights reserved.</p>
+    </footer>
+    <script>
+        function addToCart(product) {
+            fetch('/addToCart', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ product })
+            }).then(response => {
+                if (response.ok) {
+                    alert('Product added to cart!');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
